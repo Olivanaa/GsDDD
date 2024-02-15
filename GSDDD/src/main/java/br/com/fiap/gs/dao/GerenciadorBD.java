@@ -11,7 +11,7 @@ public class GerenciadorBD {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conexao = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "rm550110",
-					"080389");
+					"");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (NullPointerException e) {
